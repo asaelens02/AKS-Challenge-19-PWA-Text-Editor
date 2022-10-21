@@ -44,8 +44,6 @@ export const getDb = async () => {
 //confirm request
   const result = await request;
 
-//console.error('getDb not implemented');
-
 result ? (result.value):
   console.log ('getDb not impletmented')
 return result.value;
